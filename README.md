@@ -7,13 +7,6 @@ This codebase is licensed under Apache 2.0 as given in [LICENSE](./LICENSE).
 
 Parts of IFBench are built upon and extend [IFEval](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (Zhou et al. 2023) and we would like to thank them for their great work!
 
-```bibtex
-@article{zhou2023instruction,
-  title={Instruction-following evaluation for large language models},
-  author={Zhou, Jeffrey and Lu, Tianjian and Mishra, Swaroop and Brahma, Siddhartha and Basu, Sujoy and Luan, Yi and Zhou, Denny and Hou, Le},
-  journal={arXiv preprint arXiv:2311.07911},
-  year={2023}
-}
 
 ## Citation
 
