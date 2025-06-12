@@ -1,3 +1,12 @@
+# Generalizing Verifiable Instruction Following
+
+This repo contains IFBench, which is a new, challenging benchmark for precise instruction following. 
+
+## IFBench
+
+## RLVR for Precise Instruction Following
+We also release RLVR 
+
 ## Licensing
 
 This codebase is licensed under Apache 2.0 as given in [LICENSE](./LICENSE).
@@ -12,7 +21,6 @@ Parts of IFBench are built upon and extend [IFEval](https://github.com/google-re
 
 If you used this repository or our models, please cite our work:
 
-Tulu 1:
 ```bibtex
 @misc{pyatkin2025generalizing,
    title={Generalizing Verifiable Instruction Following}, 
