@@ -3,6 +3,11 @@
 This repo contains IFBench, which is a new, challenging benchmark for precise instruction following. 
 
 ## IFBench
+IFBench consists of two parts:
+
+- Expanded Constraints:
+
+- Constraint Isolation: 
 
 ## RLVR for Precise Instruction Following
 We also release RLVR 
