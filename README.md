@@ -5,9 +5,12 @@ This repo contains IFBench, which is a new, challenging benchmark for precise in
 ## IFBench
 IFBench consists of two parts:
 
-- Expanded Constraints:
+- OOD Constraints: 58 new and challenging constraints, with corresponding verification functions. The constraint templates are combined with prompts from a held-out set of WildChat (Zhao et al. 2024).
 
-- Constraint Isolation: 
+- Constraint Isolation in 2 turns: The prompt and the constraint are separated over two turns, i.e. the first turn is the user prompt and the model's response to the prompt, and the second turn is the constraint that modifies the initial prompt.
+
+## How to run the evaluation
+
 
 ## RLVR for Precise Instruction Following
 We also release RLVR 
