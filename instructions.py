@@ -917,7 +917,7 @@ class NthWordJapaneseChecker(Instruction):
 
 		Args:
 		  N: An integer specifying the cycle length for
-			french words to appear in the response.
+			Japanese words to appear in the response.
 
 		Returns:
 		  A string representing the instruction description.
@@ -944,7 +944,7 @@ class NthWordJapaneseChecker(Instruction):
 		return ["N"]
 
 	def check_following(self, value):
-		"""Checks if every {N}th word of the response is in French."""
+		"""Checks if every {N}th word of the response is in Japanese."""
 
 		def is_japanese(text):
 			"""

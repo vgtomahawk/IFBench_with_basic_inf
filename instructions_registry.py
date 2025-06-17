@@ -68,6 +68,7 @@ INSTRUCTION_DICT = {
     "custom:csv_quotes": instructions.QuotesCSVChecker,
     "custom:date_format_list": instructions.DateFormatListChecker,
     "count:keywords_multiple" : instructions.KeywordsMultipleChecker,
+    "words:keywords_specific_position" : instructions.KeywordSpecificPositionChecker,
     "words:words_position" : instructions.WordsPositionChecker,
     "repeat:repeat_change" : instructions.RepeatChangeChecker,
     "repeat:repeat_simple" : instructions.RepeatSimpleChecker,
