@@ -2,3 +2,7 @@ absl
 langdetect
 nltk
 immutabledict
+spacy
+emoji
+syllapy
+unicodedata
