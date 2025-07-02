@@ -12,6 +12,9 @@ IFBench consists of two parts:
 ## How to run the evaluation
 
 ## Released Datasets
+The training and test datasets can be found in this [collection](https://huggingface.co/collections/allenai/ifbench-683f590687f61b512558cdf1).
+The test dataset is: https://huggingface.co/datasets/allenai/IFBench_test .
+The IF-RLVR train dataset is: https://huggingface.co/datasets/allenai/IF_multi_constraints_upto5 .
 
 ## RLVR for Precise Instruction Following
 We also release RLVR 
