@@ -20,6 +20,8 @@ We also release RLVR
 
 This codebase is licensed under Apache 2.0 as given in [LICENSE](./LICENSE).
 
+The data is licensed under ODC-BY.
+
 
 ## Acknowledgements
 
