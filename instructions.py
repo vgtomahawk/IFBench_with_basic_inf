@@ -1871,14 +1871,24 @@ class KeywordsMultipleChecker(Instruction):
 		"""Build the instruction description."""
 		if keyword1 is None:
 			self._keyword1 = instructions_util.generate_keywords(num_keywords=1)[0]
+		else:
+			self._keyword1 = keyword1.strip()
 		if keyword2 is None:
 			self._keyword2 = instructions_util.generate_keywords(num_keywords=1)[0]
+		else:
+			self._keyword2 = keyword2.strip()
 		if keyword3 is None:
 			self._keyword3 = instructions_util.generate_keywords(num_keywords=1)[0]
+		else:
+			self._keyword3 = keyword3.strip()
 		if keyword4 is None:
 			self._keyword4 = instructions_util.generate_keywords(num_keywords=1)[0]
+		else:
+			self._keyword4 = keyword4.strip()
 		if keyword5 is None:
 			self._keyword5 = instructions_util.generate_keywords(num_keywords=1)[0]
+		else:
+			self._keyword5 = keyword5.strip()
 		self._description_pattern = "Include keyword {keyword1} once in your response, keyword {keyword2} twice in your response, keyword {keyword3} three times in your response, keyword {keyword4} five times in your response, and keyword {keyword5} seven times in your response."
 		return self._description_pattern.format(keyword1=self._keyword1, keyword2=self._keyword2,
 												keyword3=self._keyword3, keyword4=self._keyword4,
