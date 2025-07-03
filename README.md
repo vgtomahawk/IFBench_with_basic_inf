@@ -20,7 +20,7 @@ We also release RLVR
 
 This codebase is licensed under Apache 2.0 as given in [LICENSE](./LICENSE).
 
-The data is licensed under ODC-BY.
+The data is licensed under ODC-BY-1.0. It is intended for research and educational use in accordance with Ai2's Responsible Use Guidelines. The dataset includes output data generated from third party models that are subject to separate terms governing their use.
 
 
 ## Acknowledgements
