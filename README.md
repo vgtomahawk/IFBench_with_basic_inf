@@ -11,6 +11,18 @@ IFBench consists of two parts:
 
 - New IF-RLVR training constraints: 29 new and challenging constraints, with corresponding verification functions. 
 
+
+## How to run inference in the simplest way possible with any temperature-supporting llm provider via litellm
+
+
+```
+python run_ifbench_inference_litellm.py --model gpt-4.1
+
+python run_ifbench_inference_litellm.py --model fireworks_ai/accounts/patronusai/deployedModels/qwen3-4b-n70prh6y
+```
+
+Note that certain LLMs like o3 and gpt-5 no longer take in a temperature parameter. You can comment that line out when running them. We need better toggling on that via argparse which we will do in the future. 
+
 ## How to run the evaluation
 Install the requirements via the requirements.txt file.
 You need two jsonl files, one the IFBench_test.jsonl file (in the data folder) and one your file with eval prompts and completions (see sample_output.jsonl as an example). Then run:
